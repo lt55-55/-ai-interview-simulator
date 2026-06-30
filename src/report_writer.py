@@ -91,7 +91,7 @@ def generate_report(
         messages=[{"role": "user", "content": user_message}],
     )
 
-    content = response.content[0].text
+    content = "".join(b.text for b in response.content if b.type == "text")
     return _parse_report(content)
 
 

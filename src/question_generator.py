@@ -76,8 +76,8 @@ def generate_questions(
         messages=[{"role": "user", "content": user_message}],
     )
 
-    # Extract JSON from response
-    content = response.content[0].text
+    # Extract text from response (skip thinking blocks)
+    content = "".join(b.text for b in response.content if b.type == "text")
     return _parse_questions(content)
 
 

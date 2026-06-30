@@ -1,0 +1,41 @@
+# 个人简历
+
+## 基本信息
+- 姓名：兰添
+- 城市：长沙
+- 学历：本科 / 计算机科学与技术 / 2026届
+- 英语：CET-4，能阅读技术文档
+- GitHub：github.com/lt55-55
+
+## 技能
+- 编程语言：Python（熟练），SQL（熟练），HTML/CSS（基础）
+- AI/LLM：Anthropic Claude API，OpenAI API，Prompt Engineering，RAG
+- 框架工具：Streamlit，FastAPI，asyncio/aiohttp，Git
+- 数据库：SQLite，SQLite FTS5 全文搜索
+- 其他：RSS 数据采集，自动化脚本，内容格式化
+
+## 项目经历
+
+### AI 面试模拟器 | 独立开发 | 2026.06
+基于 Claude API 的智能面试系统，用户上传简历后 AI 自动出题、评估答案、生成报告。
+- 使用 Streamlit 构建全流程 Web 界面
+- Anthropic SDK 实现结构化出题和多维度评分（正确性/深度/表达）
+- SQLite 存储面试记录，支持历史追踪
+- GitHub 开源：github.com/lt55-55/-ai-interview-simulator
+
+### 外网信息素材收集系统 | 独立开发 | 2026.06
+自动从 28 个国际 RSS 源抓取前沿信息，转化为小红书图文素材。
+- Python 异步爬虫 + feedparser 多源聚合
+- 自动去重、评分、格式化，支持每日定时任务
+- 输出小红书/抖音两种内容格式模板
+
+### CLI 多模型聊天机器人 | 独立开发 | 2026.05
+终端交互式 AI 对话工具，支持 Anthropic Claude 全系列模型实时切换。
+- 流式输出、对话持久化、Token 用量统计
+- 完整的命令行交互系统（/save /load /stats /model）
+
+### Prompt 实验平台 | 独立开发 | 2026.05
+5 种 Prompt 策略的 A/B 测试框架，支持模板管理和 SQLite 历史追踪。
+
+## 自我评价
+自驱力强，善于结构化思考，有完整独立项目的交付能力。关注 AI 应用层，能快速学习新技术。身体素质和心理素质过硬，抗压能力强。
